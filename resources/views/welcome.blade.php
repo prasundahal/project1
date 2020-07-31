@@ -12,10 +12,10 @@
   @include('partials.nav')
 
     @include('partials.hero')
-    {{-- @include('partials.category') --}}
+     @include('partials.category')
 
 
-    {{-- <div class="site-section bg-light">
+    <div class="site-section bg-light">
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
@@ -131,7 +131,7 @@
 
 
 
-    @include('partials.blog') --}}
+    @include('partials.blog')
 
     @include('partials.footer')
   <style>
